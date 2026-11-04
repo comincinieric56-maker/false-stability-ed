@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article and the source datasets."
+title: "Apparent normalization of vital signs after emergency department care: analysis code"
+authors:
+  - family-names: Comincini
+    given-names: Eric
+version: 1.0.0
+date-released: 2026-11-04
+license: MIT
+repository-code: "https://github.com/USUARIO/false-stability-ed"

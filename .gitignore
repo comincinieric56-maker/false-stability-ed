@@ -1,0 +1,29 @@
+# ---- NEVER COMMIT DATA (PhysioNet data use agreements) ----
+*.parquet
+*.csv
+*.csv.gz
+*.gz
+*.zip
+*.feather
+*.pkl
+*.pickle
+*.joblib
+*.pt
+*.pth
+*.npy
+*.npz
+salida*/
+mcmed/
+mimic/
+data/
+outputs/
+# figures/tables are produced locally from credentialed data
+*.tif
+*.tiff
+*.png
+*.xlsx
+*.docx
+# python / notebooks
+__pycache__/
+.ipynb_checkpoints/
+.env
