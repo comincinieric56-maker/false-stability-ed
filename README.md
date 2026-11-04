@@ -42,7 +42,7 @@ The order in the notebook is the order in which the analyses were run. The explo
 
 ## How to run
 
-Open [`notebooks/false_stability_pipeline.ipynb`](notebooks/false_stability_pipeline.ipynb) in Google Colab and run the cells in order. It mounts Google Drive, takes the code from this repository, and reads the source data from your own Drive folder. Approximate run times: steps 2–2b ≈15 min (CPU); 3–4 ≈40 min (CPU); 5–5c ≈30 min (GPU); 6a–6b ≈25 min (CPU); 6c–6d ≈50 min (GPU); 7e–7c ≈95 min (CPU); 7d ≈20 min per center (high-RAM runtime recommended).
+Open [`false_stability_pipeline.ipynb`](false_stability_pipeline.ipynb) in Google Colab and run the cells in order. It mounts Google Drive, takes the code from this repository, and reads the source data from your own Drive folder. Approximate run times: steps 2–2b ≈15 min (CPU); 3–4 ≈40 min (CPU); 5–5c ≈30 min (GPU); 6a–6b ≈25 min (CPU); 6c–6d ≈50 min (GPU); 7e–7c ≈95 min (CPU); 7d ≈20 min per center (high-RAM runtime recommended).
 
 Locally: `pip install -r requirements.txt`, then set `FOLDER` (and `dest = FOLDER + "/mcmed"`) and run the scripts with `%run -i` in IPython in the same order. Steps 2 and 7a–7g run on CPU.
 
